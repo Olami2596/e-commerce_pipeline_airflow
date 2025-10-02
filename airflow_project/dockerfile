@@ -1,0 +1,12 @@
+FROM apache/airflow:3.1.0
+
+# Switch to airflow user (the base image already defaults to this user)
+USER airflow
+
+# Copy requirements file into the container
+COPY requirements.txt /requirements.txt
+
+# Install only the additional Python packages
+RUN pip install --no-cache-dir -r /requirements.txt
+
+

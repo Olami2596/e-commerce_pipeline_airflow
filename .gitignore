@@ -1,0 +1,7 @@
+/airflow_venv
+/logs
+/airflow_project/logs
+/airflow_project/.env
+/airflow_project/dbt_profiles
+/dbt_ecommerce/logs
+/dbt_ecommerce/target
