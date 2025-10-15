@@ -23,8 +23,8 @@ An automated pipeline for monitoring e-commerce orders with Airflow, dbt, Snowfl
 ## 🔧 Setup Instructions
 
 ```bash
-git clone <repo-url>
-cd e-commerce_airflow/airflow_project
+git clone https://github.com/Olami2596/e-commerce_pipeline_airflow
+cd e-commerce_airflow
 ````
 
 1. Configure Snowflake and dbt (`profiles.yml` + YAML config files).
